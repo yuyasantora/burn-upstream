@@ -1,6 +1,7 @@
 mod cosine_similarity;
 mod det;
 mod diag;
+mod jacobi;
 mod lu;
 mod matvec;
 mod outer;
@@ -12,6 +13,7 @@ mod vector_norm;
 pub use cosine_similarity::*;
 pub use det::*;
 pub use diag::*;
+pub use jacobi::*;
 pub use lu::*;
 pub use matvec::*;
 pub use outer::*;

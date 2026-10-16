@@ -20,6 +20,7 @@ fn init_device_settings() {
 pub(crate) mod cosine_similarity;
 pub(crate) mod det;
 pub(crate) mod diag;
+pub(crate) mod jacobi;
 pub(crate) mod lu;
 pub(crate) mod matvec;
 pub(crate) mod outer;
